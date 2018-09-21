@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22adc66a-ddb0-4944-84f3-bbbc468cf761">
+  <producedTypes>
+    <objectType typeId="b05e38e2-c7ac-4390-877d-c7aa39a5e29a" valueTypeId="4ca6490d-de20-4e75-a074-7ec0a9159fa5"/>
+  </producedTypes>
+  <name>ИнструментыРазработчика_УФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструменты разработчика УФ</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="029fd63a-8c16-4a68-9073-df73d2f8b9d3"/>
+  <defaultForm>ExternalDataProcessor.ИнструментыРазработчика_УФ.Form.Форма</defaultForm>
+  <forms uuid="04399aa6-548c-471a-8543-3a3d338dacae">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="87db478f-0a4e-4f56-9ca0-7c3882a29097">
+    <name>КонсольЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консоль запросов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cda9fb86-d456-4fd6-b01b-024b931f4a89">
+    <name>КонструкторЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструктор запросов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8625f42b-bb28-4165-bcd3-7cecedf073ce">
+    <name>КонсольКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консоль кода</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5f2d6991-cde9-4338-8c45-57b2bf006f7c">
+    <name>ДвиженияДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движения документов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e2e6ae4b-d22a-4730-9b34-8267cf83752b">
+    <name>ИсторияОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>История объекта</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ff194b47-1bd3-486b-8125-a20fac0f684f">
+    <name>НастройкиВерсионирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки версионирования</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0fd303ed-4246-46ca-94f4-ec242cf7dcd5">
+    <name>ФормаВводаЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода значения</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0e4721a7-a24a-4758-934d-c9fd75b33e4b">
+    <name>Инструменты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструменты</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:ExternalDataProcessor>
