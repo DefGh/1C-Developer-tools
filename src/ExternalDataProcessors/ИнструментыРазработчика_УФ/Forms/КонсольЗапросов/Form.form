@@ -121,7 +121,6 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>ЗапросыСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -160,7 +159,6 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>ЗапросыСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
               <horizontalLocation>Left</horizontalLocation>
@@ -200,7 +198,6 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>ЗапросыУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -467,35 +464,6 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.ПереключитьВидимостьРезультата</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-          </items>
-          <items xsi:type="form:Button">
-            <name>ОткрытьКонсольЗапросов1</name>
-            <id>88</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ОткрытьКонсольЗапросов1РасширеннаяПодсказка</name>
-              <id>89</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.ОткрытьКонсольЗапросов1</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -790,7 +758,6 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ЗапросыПараметрыСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -829,7 +796,6 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ЗапросыПараметрыСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
                 <horizontalLocation>Left</horizontalLocation>
@@ -869,7 +835,6 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>ЗапросыПараметрыУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1119,7 +1084,6 @@
           <items xsi:type="form:FormField">
             <name>Результат</name>
             <id>52</id>
-            <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -1174,6 +1138,43 @@
               <showGroups>true</showGroups>
               <enableStartDrag>true</enableStartDrag>
               <enableDrag>true</enableDrag>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormGroup">
+            <name>СтраницыРезультатов</name>
+            <id>90</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Страницы результатов</value>
+            </title>
+            <toolTip>
+              <key>ru</key>
+              <value>Страницы результатов</value>
+            </toolTip>
+            <extendedTooltip>
+              <name>СтраницыРезультатовРасширеннаяПодсказка</name>
+              <id>91</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Pages</type>
+            <extInfo xsi:type="form:PagesGroupExtInfo">
+              <pagesRepresentation>TabsOnTop</pagesRepresentation>
+              <currentRowUse>DontUse</currentRowUse>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1382,7 +1383,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ИнструментыРазработчика_УФ</types>
+      <types>ExternalDataProcessor.ИнструментыРазработчика_УФ</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1534,6 +1535,26 @@
       <common>true</common>
     </edit>
     <extInfo xsi:type="form:SpreadsheetDocumentExtInfo"/>
+  </attributes>
+  <attributes>
+    <name>ДобавленныеТаблицы</name>
+    <title>
+      <key>ru</key>
+      <value>Добавленные таблицы</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <formCommands>
     <name>ОткрытьКонсольЗапросов</name>

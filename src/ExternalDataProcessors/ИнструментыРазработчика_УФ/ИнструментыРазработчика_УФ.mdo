@@ -91,6 +91,16 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="e9848706-0eff-43cf-994e-0ede698fce19">
+    <name>ВыборТипа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор типа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="0e4721a7-a24a-4758-934d-c9fd75b33e4b">
     <name>Инструменты</name>
     <synonym>
